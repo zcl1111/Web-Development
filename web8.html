@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 表格</title>
+    <style>
+        table.newone,td {
+            border: 1px solid darkblue;
+            cellpadding: "8";
+            cellspacing: "10" ;
+        }
+        table.newone {
+            /* 表格折叠边框 */
+            border-collapse: collapse; 
+  
+        }
+    </style>
+</head>.newone 
+<body>
+    <!--添加文档主体内容-->
+    <h3>HTML表格border属性</h3>
+    <P>
+        &lt;table border="1"&gt;表格效果：<br/>
+        <table border = 1px>
+            <tr>
+                <td>row1,cell 1</td>
+                <td>row1,cell 2</td>
+            </tr>
+            <tr>
+                <td>row2,cell 1</td>
+                <td>roe2,cell 2</td>
+            </tr>
+        </table>
+        <br>
+            &lt;table &gt;表格效果：<br/>
+            <table border="2" cellpadding="8" cellspacing="15">
+                <tr>
+                    <td>row1,cell 1</td>
+                    <td>row1,cell 2</td>
+                </tr>
+                <tr>
+                    <td>row2,cell 1</td>
+                    <td>roe2,cell 2</td>
+                </tr>
+            </table>
+    </P>
+
+    <h3>HTML表格的标签元素</h3>
+    <P>
+        &lt;table &gt;表格元素：<br/>
+        <table border = 1px cellpadding=8px>
+            <caption>表格标题</caption>
+            <thead>
+                <tr>
+                    <th>表头A</th>
+                    <th>表头B</th>
+                    <th>表头C</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td>标注A</td>
+                    <td>标注B</td>
+                    <td>标注C</td>
+                </tr>
+            </tfoot>
+
+            <tbody>
+                    <tr>
+                        <td>row1,cell 1</td>
+                        <td>row1,cell 2</td>
+                        <td>row1,cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>row2,cell 1</td>
+                        <td>row2,cell 2</td>
+                        <td>row2,cell 3</td>
+                    </tr>
+                    <tr>
+                        <!-- 第三行第二列为空单元表格 -->
+                        <td>row3,cell 1</td>
+                        <td></td>          
+                        <td>row3,cell 3</td>
+                    </tr>
+            </tbody>
+
+        </table>
+
+    </P>
+    &lt;table &gt;表格细线边框效果：<br/>
+    <table class="newone">
+        <tr>
+            <td>row1,cell 1</td>
+            <td>row1,cell 2</td>
+        </tr>
+        <tr>
+            <td>row2,cell 1</td>
+            <td>roe2,cell 2</td>
+        </tr>
+    </table>
+</body>
+</html>
